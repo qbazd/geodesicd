@@ -21,6 +21,11 @@ auto g_out2 = g1.direct(p1, AzDist(90.0, 50000.0));
 
 ```
 
+Dependencies
+------------
+- dlang compiler
+- GCC - used for compilation of original geodesic C library as static library
+
 TODO
 ----
 

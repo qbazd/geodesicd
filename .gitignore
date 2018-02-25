@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+./geodesicd
+geodesicd.so
+geodesicd.dylib
+geodesicd.dll
+geodesicd.a
+geodesicd.lib
+geodesicd-test-*
+*.exe
+*.o
+*.obj
+*.lst

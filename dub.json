@@ -1,0 +1,13 @@
+{
+	"name": "geodesicd",
+	"authors": [
+		"Jakub Zdroik"
+	],
+	"description": "D warper for Geodesic part of GeographicLib",
+	"copyright": "Copyright © 2018, Jakub Zdroik",
+	"license": "MIT",
+	"dependencies": {},
+    "lflags" : ["-Lgeographiclib-code/legacy/C"],
+    "libs": ["geodesic"],
+    "preBuildCommands": ["gcc -o geographiclib-code/legacy/C/geodesic.o -c geographiclib-code/legacy/C/geodesic.c -lm && ar rcs geographiclib-code/legacy/C/libgeodesic.a geographiclib-code/legacy/C/geodesic.o"]
+}

@@ -3,13 +3,12 @@
 	"authors": [
 		"Jakub Zdroik"
 	],
-	"description": "D warper for Geodesic part of GeographicLib",
+	"description": "D wraper for Geodesic part of GeographicLib",
 	"copyright": "Copyright © 2018, Jakub Zdroik",
 	"license": "MIT",
 	"dependencies": {},
-    "lflags" : ["-L$PACKAGE_DIR/geographiclib-code/legacy/C"],
-    "libs": ["geodesic"],
+    "sourceFiles": ["geodesic.o"],
     "preBuildCommands": [
-        "gcc -o $PACKAGE_DIR/geographiclib-code/legacy/C/geodesic.o -c $PACKAGE_DIR/geographiclib-code/legacy/C/geodesic.c -lm && ar rcs $PACKAGE_DIR/geographiclib-code/legacy/C/libgeodesic.a $PACKAGE_DIR/geographiclib-code/legacy/C/geodesic.o"
+        "gcc -o $PACKAGE_DIR/geodesic.o -c $PACKAGE_DIR/geographiclib-code/legacy/C/geodesic.c -lm"
     ]
 }

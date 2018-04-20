@@ -1,3 +1,3 @@
 module geodesicd;
 
-public import geodesicd.geodesic_warper;
+public import geodesicd.geodesic_wraper;

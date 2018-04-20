@@ -1,6 +1,7 @@
-module geodesicd.geodesic_warper;
+module geodesicd.geodesic_wraper;
 
-private {
+private
+{
 
   extern(C){
 
@@ -62,7 +63,7 @@ struct DistAz1Az2{
 
 static Ellipsoid EllipsoidWGS84 = {6378137, 1/298.257223563};
 
-// D warper
+// D wraper
 struct Geodesic{
 
   private geod_geodesic g;

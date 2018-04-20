@@ -1,10 +1,10 @@
 GeodesicD
 =========
 
-dlang warper for Geodesic part of [GeographicLib 1.49](https://geographiclib.sourceforge.io/).
+dlang wraper for Geodesic part of [GeographicLib 1.49](https://geographiclib.sourceforge.io/).
 [D Programming Language](http://dlang.org).
 
-The simple warper of inverse and direct functions.
+The simple wraper of inverse and direct functions.
 
 Example
 -------
